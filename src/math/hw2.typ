@@ -74,9 +74,9 @@
 Consider linear combination of two arbitrary $E$ elements $z = alpha x + beta y$.\
 If $alpha=0$ or $beta=0$, then $z in E$ ($z$ is either $0$, $x$, or $y$, all of which are in $E$).
 
-If $alpha=beta=1$, then lets take a look at any of vertices (WLOG lets look at the $V_1$ vertice).\
+If $alpha=beta=1$, then lets take a look at any of vertices (WLOG lets look at the $V_1$ vertex).\
 $deg(V_1)$ in $x$ and $y$ could be either $0$ or $2$.
-If either is $0$ then case is trivial (the second possibly-non-zero element just keeps its even nubmer of edges).\
+If either is $0$ then case is trivial (the second possibly-non-zero element just keeps its even number of edges).\
 We need to check that resulting degree if both elements have $deg(V_1)=2$ also is even.
 Looking at the @graph we can see only two possible subcases: either both edges from $x$ and $y$ overlap (and mutually "destroy" each other), or only one edge overlap, disappear, and the other two keep "existing".
 Both subcases give even degree.
@@ -106,7 +106,7 @@ $
 
 These elements have equal rows and equal columns, i.e. all elements are equal.
 Any element has the form of $alpha bb(1)$.
-Space is unidimentional.
+Space is unidimensional.
 
 == Case $U + W$
 

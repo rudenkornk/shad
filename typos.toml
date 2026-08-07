@@ -1,0 +1,6 @@
+# See https://github.com/crate-ci/typos/blob/master/docs/reference.md#example-configurations
+[default]
+extend-ignore-re = [
+  "(?Rm)^.*(#|//|<!--)\\s*typos:\\s*ignore$",
+  "(?s)(#|//|<!--)\\s*typos:\\s*off.*?(#|//|<!--)\\s*typos:\\s*on",
+]
